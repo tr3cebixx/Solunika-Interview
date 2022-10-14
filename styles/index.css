@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+    color: white;
+}
+
+body{
+    margin: 40vh 40vw;
+    background-image: radial-gradient(#0d0538, #3b73b3);
+}
+h1, p{
+    text-align: center;
+    margin: 0.5rem;
+    text-decoration: underline;
+}
+button{
+    border: black 0.3rem solid;
+    background-color: #3b73b3;
+    height: 5vh;
+    margin: 0.5rem;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
