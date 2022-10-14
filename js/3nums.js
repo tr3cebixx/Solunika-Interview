@@ -19,6 +19,7 @@ boton.addEventListener("click", () => {
   let num1 = parseInt(prompt("Ingresar el primer número"));
   let num2 = parseInt(prompt("Ingresar el segundo número"));
   let num3 = parseInt(prompt("Ingresar el tercer número"));
+  //Se acomodan de mayor a menor mediante un sort al array
   arrayNums.push(num1, num2, num3);
   console.log(arrayNums.sort(compareFn));
 });
